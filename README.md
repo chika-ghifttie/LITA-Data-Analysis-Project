@@ -4,9 +4,15 @@
 
  - [Project overview](project-overview)
  - [Data Sources](data-sources)
+ - [Key Features](key-features)
+ - [Tools Used](tools-used)
+ - [Data Cleaning and Preparation](data-cleaninig-and-preparation)
+ - [Exploratory Data Analysis](exploratory-data-analysis)
  - [Data Analysis](data-analysis)
+ - [Results And Findings](results-and-findings)
  - [Recommendations](recommendation)
  - [Limitations](limitation)
+ - [Reference](reference)
 
 ## Project Overview
 
@@ -22,6 +28,7 @@ Sales Data: The primary dataset used for this project is the Capstone Project fi
 - Data Exploration: Initial analysis performed in Excel using pivot tables and formulas to summarize sales data and calculate metrics.
 - SQL Queries: Data loaded into SQL Server for advanced querying, extracting insights such as total sales by product category and monthly sales totals.
 - Interactive Dashboard: A comprehensive Power BI dashboard visualizing sales performance, including sales overview, top-performing products, regional breakdowns, and user-interactive slicers for data filtering.
+  
 ## Tools Used:
 
 - Excel - Data exploration and cleaning[Download here](https://microsoft.com)
