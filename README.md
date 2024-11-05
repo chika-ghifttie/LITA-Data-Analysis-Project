@@ -18,6 +18,9 @@
 
 This project involves the analysis of sales performance for a retail store using Excel, SQL, and Power BI. The goal is to uncover key insights, such as top-selling products, regional performance, and monthly sales trends.
 
+
+
+
 ## Data Sources
 
 Sales Data: The primary dataset used for this project is the Capstone Project file. it includes details like OrderID, CustomerID, Product, Region, OrderDate, Quantity, UnitPrice.
