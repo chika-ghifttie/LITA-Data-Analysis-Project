@@ -44,6 +44,32 @@ In this phase, I conducted exploratory data analysis to uncover insights and ans
   -  How do sales vary by region?
   -  What are the monthly sales trends?
   -  Which days of the week see the highest sales?
+
+ ## Data Analysis
+ 
+The data analysis phase involved using various tools to answer key questions, uncover trends, and provide insights into sales performance. This analysis focused on identifying patterns in the data, with a particular emphasis on product sales, regional performance, and customer behavior.
+
+### Excel Analysis:
+
+- Summarized Sales by Product, Region, and Month: Used pivot tables to view aggregated sales data, making it easy to see which products and regions performed best and identify monthly trends.
+- Calculated Key Metrics: Leveraged Excel formulas to calculate average sales per product and total revenue by region, establishing benchmarks for further analysis.
+  
+### SQL Queries: Extracted Insights
+-  Loaded the dataset into SQL Server to run queries that helped answer key business questions.
+
+#### Key queries included:
+- Retrieving total sales for each product category.
+- Finding the highest-selling product by total sales value.
+- Calculating the percentage of total sales contributed by each region.
+- Identified Top Customers: Queried the database to find the top 5 customers based on total purchase amount, providing insights into customer buying patterns.
+- 
+### Power BI Dashboard:
+
+- Integrated Analysis into Visualizations: Created an interactive dashboard that presented key metrics, top-selling products, and regional breakdowns, bringing the analysis together in a visual format.
+- Monthly and Regional Trends: Used visualizations like line charts and clustered column charts to highlight monthly sales trends and regional performance.
+- Enhanced Usability with Slicers: Included slicers for products, year, month, and region to allow stakeholders to interact with the data and filter insights based on specific segments.
+  
+This analysis provided actionable insights to help the retail store understand its strongest products, best-performing regions, and sales trends over time, ultimately supporting more data-driven business decisions.
     
  
 
