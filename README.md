@@ -144,24 +144,68 @@ This analysis provided actionable insights to help the retail store understand i
 ## Results and Findings
 The data analysis revealed several significant insights into the retail store’s sales performance, focusing on top-selling products, regional performance, and monthly trends.
 
-- Top-Selling Products: Identified the top-selling products based on total sales value, with SHOE being the highest earner.
+1. Top-Selling Products: Identified the top-selling products based on total sales value, with SHOE being the highest earner.
 
-- Regional Performance: The SOUTHERN REGION is the top-performing region, contributing 44.16% to the total revenue with total sales of 927,820,​ while WEST and NORTH had the lowest.
+2. Regional Performance: The SOUTHERN REGION is the top-performing region, contributing 44.16% to the total revenue with total sales of 927,820,​ while WEST and NORTH had the lowest.
   Although, the Eastern Region showed consistent growth over time, suggesting potential for targeted marketing efforts.
   
-- Monthly Sales Trends: Sales peaked during FEBRUARY, likely due to seasonal demand or promotional events, while APRIL, SEPTEMBER and DECEMBER experienced the lowest sales.
+3. Monthly Sales Trends: Sales peaked during FEBRUARY, likely due to seasonal demand or promotional events, while APRIL, SEPTEMBER and DECEMBER experienced the lowest sales.
   
 Sales increased during specific periods, suggesting that certain months or seasons drive higher customer engagement.
 
 #### Other Key Findings:
 
-- Trend by Day of The Week: TUESDAY was identified as the busiest day for sales, highlighting a potential opportunity for targeted promotions or resource allocation on peak days.
+4. Trend by Day of The Week: TUESDAY was identified as the busiest day for sales, highlighting a potential opportunity for targeted promotions or resource allocation on peak days.
 
-- Percentage of Sales by Region: Each region's contribution to total sales was calculated, showing that SOUTHERN REGION accounted for the largest share.
+5. Percentage of Sales by Region: Each region's contribution to total sales was calculated, showing that SOUTHERN REGION accounted for the largest share.
 
-- There are no products with no sales in the last quater, indicating that every product has at least some sales.
+6. There are no products with no sales in the last quater, indicating that every product has at least some sales.
+
+## Recommendations
   
-These results provided actionable insights to guide business strategies, such as stocking high-demand products, tailoring marketing efforts to top-performing regions, and planning seasonal promotions during peak months. The findings support a data-driven approach to optimize sales performance and customer satisfaction.
+- Focus on Top-Performing Products:
+
+Since Shoes, Shirt and Hat emerged as top-sellers, consider increasing inventory for them to meet customer demand. Additional promotions for these products could also drive sales further, especially during peak months.
+
+- Expand Efforts in the Southern Region:
+
+Given that the Southern region contributed the highest percentage of total sales (44.16%), it’s recommended to prioritize marketing and promotional activities in this region. This could include targeted ads, region-specific discounts, or expanding product availability in Southern stores.
+
+- Optimize for Peak Sales Months:
+
+The analysis shows seasonal spikes in sales. Planning promotions or stock increases during peak months can capitalize on this demand. Additionally, consider running limited-time offers to boost sales during slower months.
+
+- Leverage Busiest Days of the Week:
+
+Since Tuesday and Thursday were identified as having higher sales, optimize staffing and inventory on these days. Introducing "Midweek Deals" or similar promotions could further increase sales on these high-performing days.
+
+- Address Low/No-Sales Products:
+
+Although there were no products with zero sales, it would be beneficial to monitor low-performing products and assess if any adjustments can be made. Consider bundling these products with high-performing items or adjusting pricing to increase sales.
+
+- Monitor Sales in Low-Performing Regions:
+
+Regions with lower sales can be further investigated to understand potential barriers. Conduct surveys or collect feedback in these regions to understand customer needs, and tailor marketing strategies to address any specific challenges or preferences.
+
+## Limitations
+
+1. Lack of Detailed Product Categorization:
+
+The dataset did not include a "Category" column, limiting the ability to analyze performance by product category. This could have provided insights into demand patterns within specific categories or product types.
+
+2. Absence of Customer Demographic Information:
+
+Without data on customer demographics (such as age, gender, or income level), it was challenging to identify specific customer segments or tailor recommendations to different customer groups.
+
+3. Limited Temporal Scope:
+
+The dataset only covers a specific period (e.g., one year), the findings may not account for longer-term trends, such as year-over-year growth or seasonal variations across multiple years.
+
+4. Absence of Key Data Fields:
+
+Certain critical columns, such as the Sales column, were missing in the initial dataset. This column had to be manually calculated or inputted based on available data, which may introduce some margin of error. The absence of such fields limited the ability to conduct certain types of analysis directly and required additional steps to derive key metrics.
+
+
 
 
     
