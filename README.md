@@ -205,6 +205,24 @@ The dataset only covers a specific period (e.g., one year), the findings may not
 
 Certain critical columns, such as the Sales column, were missing in the initial dataset. This column had to be manually calculated or inputted based on available data, which may introduce some margin of error. The absence of such fields limited the ability to conduct certain types of analysis directly and required additional steps to derive key metrics.
 
+## Reference
+
+i. Dataset Source:
+
+The Sales Dataset was Provided by LITA Africa.
+
+ii. Software and Tools:
+
+- Excel: Used for data cleaning, initial exploration, and creating pivot tables to summarize sales data.
+- SQL (SQL Server Management Studio): Utilized for querying and analyzing sales data, identifying trends, and extracting insights.
+- Power BI: Employed to design an interactive dashboard that visualizes key insights, including sales trends, regional performance, and top-selling products.
+
+iii. Personal Consultation: 
+- Advice and guidance from a peer with experience in data analysis.
+- YouTube Tutorials: Various video tutorials on Excel, SQL, and Power BI.
+
+
+
 
 
 
