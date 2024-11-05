@@ -56,13 +56,83 @@ The data analysis phase involved using various tools to answer key questions, un
   
 ### SQL Queries: Extracted Insights
 -  Loaded the dataset into SQL Server to run queries that helped answer key business questions.
+-   Identified Top Customers: Queried the database to find the top 5 customers based on total purchase amount, providing insights into customer buying patterns.
 
 #### Key queries included:
-- Retrieving total sales for each product category.
-- Finding the highest-selling product by total sales value.
-- Calculating the percentage of total sales contributed by each region.
-- Identified Top Customers: Queried the database to find the top 5 customers based on total purchase amount, providing insights into customer buying patterns.
-- 
+
+1.  Retrieving total sales for each product category
+  
+  ```sql
+Select * FROM [dbo].[Sheet1$]
+SELECT PRODUCT,
+SUM(sales) AS TotalSales
+FROM [dbo].[Sheet1$]
+GROUP BY product
+```
+  
+2.  Finding the highest-selling product by total sales value
+
+```sql
+Select * FROM [dbo].[Sheet1$]
+SELECT TOP 1 Product,
+MAX(Sales) AS MaxSales
+FROM [dbo].[Sheet1$]
+GROUP BY Product
+ORDER BY MaxSales DESC
+SELECT * FROM [dbo].[Sheet1$]
+```
+
+3.  Number of Sales Transactions in Each Region
+
+```sql
+Select * FROM [dbo].[Sheet1$]
+SELECT Region,
+COUNT (Sales) AS TotalSalesCount
+FROM [dbo].[Sheet1$]
+GROUP BY Region
+```
+  
+4.  Calculating the percentage of total sales contributed by each region
+
+  ```sql
+  Select * FROM [dbo].[Sheet1$]
+  SELECT Region,
+SUM(Sales) AS TotalSales
+FROM [dbo].[Sheet1$]
+GROUP BY Region
+ORDER BY TotalSales DESC
+```
+5. Total Revenue Per Product
+
+```sql
+Select * FROM [dbo].[Sheet1$]
+SELECT PRODUCT,
+SUM(Sales) AS TotalRevenue
+FROM [dbo].[Sheet1$]
+GROUP BY Product
+```
+
+6.  Identify Products With no Sales In The LastQuater
+
+```sql
+Select * FROM [dbo].[Sheet1$]
+SELECT PRODUCT,
+Sales
+FROM [dbo].[Sheet1$]
+WHERE Sales = 0
+```
+
+7.  Top 5 customers based on total purchase amount
+
+  ```sql
+Select * FROM [dbo].[Sheet1$]
+SELECT TOP 5 customer id,
+SUM (Sales) AS TotalPurchaseAmount
+FROM [dbo].[Sheet1$]
+GROUP BY Customer id
+ORDER BY 2 DESC
+```
+  
 ### Power BI Dashboard:
 
 - Integrated Analysis into Visualizations: Created an interactive dashboard that presented key metrics, top-selling products, and regional breakdowns, bringing the analysis together in a visual format.
