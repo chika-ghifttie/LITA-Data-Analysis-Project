@@ -23,6 +23,9 @@ This project involves the analysis of sales performance for a retail store using
 
 
 
+
+
+
 ## Data Sources
 
 Sales Data: The primary dataset used for this project is the Capstone Project file. it includes details like OrderID, CustomerID, Product, Region, OrderDate, Quantity, UnitPrice.
