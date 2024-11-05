@@ -140,6 +140,30 @@ ORDER BY 2 DESC
 - Enhanced Usability with Slicers: Included slicers for products, year, month, and region to allow stakeholders to interact with the data and filter insights based on specific segments.
   
 This analysis provided actionable insights to help the retail store understand its strongest products, best-performing regions, and sales trends over time, ultimately supporting more data-driven business decisions.
+
+## Results and Findings
+The data analysis revealed several significant insights into the retail store’s sales performance, focusing on top-selling products, regional performance, and monthly trends.
+
+- Top-Selling Products: Identified the top-selling products based on total sales value, with SHOE being the highest earner.
+
+- Regional Performance: The SOUTHERN REGION is the top-performing region, contributing 44.16% to the total revenue with total sales of 927,820,​ while WEST and NORTH had the lowest.
+  Although, the Eastern Region showed consistent growth over time, suggesting potential for targeted marketing efforts.
+  
+- Monthly Sales Trends: Sales peaked during FEBRUARY, likely due to seasonal demand or promotional events, while APRIL, SEPTEMBER and DECEMBER experienced the lowest sales.
+  
+Sales increased during specific periods, suggesting that certain months or seasons drive higher customer engagement.
+
+#### Other Key Findings:
+
+- Trend by Day of The Week: TUESDAY was identified as the busiest day for sales, highlighting a potential opportunity for targeted promotions or resource allocation on peak days.
+
+- Percentage of Sales by Region: Each region's contribution to total sales was calculated, showing that SOUTHERN REGION accounted for the largest share.
+
+- There are no products with no sales in the last quater, indicating that every product has at least some sales.
+  
+These results provided actionable insights to guide business strategies, such as stocking high-demand products, tailoring marketing efforts to top-performing regions, and planning seasonal promotions during peak months. The findings support a data-driven approach to optimize sales performance and customer satisfaction.
+
+
     
  
 
