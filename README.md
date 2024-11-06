@@ -15,6 +15,7 @@
  - [Reference](reference)
 
 ## Project Overview
+---
 
 This project involves the analysis of sales performance for a retail store using Excel, SQL, and Power BI. The goal is to uncover key insights, such as top-selling products, regional performance, and monthly sales trends.
 
@@ -254,6 +255,12 @@ iii. Personal Consultation:
 - Advice and guidance from a peer with experience in data analysis.
 - YouTube Tutorials: Various video tutorials on Excel, SQL, and Power BI.
 
+
+😄
+
+💻
+
+ 
 
 
 
