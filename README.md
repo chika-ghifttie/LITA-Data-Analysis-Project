@@ -18,7 +18,7 @@
 
 This project involves the analysis of sales performance for a retail store using Excel, SQL, and Power BI. The goal is to uncover key insights, such as top-selling products, regional performance, and monthly sales trends.
 
-
+![SalesData](https://github.com/user-attachments/assets/26bf84b8-f5ac-4661-8ff2-be58be4a5b27)
 
 
 
@@ -69,7 +69,20 @@ The data analysis phase involved using various tools to answer key questions, un
 ### Excel Analysis:
 
 - Summarized Sales by Product, Region, and Month: Used pivot tables to view aggregated sales data, making it easy to see which products and regions performed best and identify monthly trends.
+
+
+
+![PivotTableWithDollarSignSalesdata](https://github.com/user-attachments/assets/766d510e-4d3a-41c5-9081-7c031ce259e5)
+
+![SalesBydAyoftheweekforSALESDATA](https://github.com/user-attachments/assets/3dcf9d2d-174b-4387-bc44-3af0b274cf3c)
+
 - Calculated Key Metrics: Leveraged Excel formulas to calculate average sales per product and total revenue by region, establishing benchmarks for further analysis.
+
+  
+![SalesDataTable](https://github.com/user-attachments/assets/e7559063-bc7b-49ba-a33d-4b3e96dd649e)
+
+
+
   
 ### SQL Queries: Extracted Insights
 -  Loaded the dataset into SQL Server to run queries that helped answer key business questions.
@@ -155,6 +168,9 @@ ORDER BY 2 DESC
 - Integrated Analysis into Visualizations: Created an interactive dashboard that presented key metrics, top-selling products, and regional breakdowns, bringing the analysis together in a visual format.
 - Monthly and Regional Trends: Used visualizations like line charts and clustered column charts to highlight monthly sales trends and regional performance.
 - Enhanced Usability with Slicers: Included slicers for products, year, month, and region to allow stakeholders to interact with the data and filter insights based on specific segments.
+
+  ![Part3 Of SalesData](https://github.com/user-attachments/assets/3e40b70d-e34b-402c-a51f-df53accaa0be)
+
   
 This analysis provided actionable insights to help the retail store understand its strongest products, best-performing regions, and sales trends over time, ultimately supporting more data-driven business decisions.
 
